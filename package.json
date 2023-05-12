@@ -1,0 +1,25 @@
+{
+  "name": "testexample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitvitaly/testExample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitvitaly/testExample/issues"
+  },
+  "homepage": "https://github.com/gitvitaly/testExample#readme",
+  "dependencies": {
+    "cypress-downloadfile": "^1.2.3"
+  },
+  "devDependencies": {
+    "cypress": "^12.12.0"
+  }
+}

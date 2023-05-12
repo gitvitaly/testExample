@@ -1,0 +1,12 @@
+{
+    "successLogin": {
+        "email": "admin@yourstore.com",
+        "password": "admin"
+    },
+    "unsuccessLogin": {
+        "invalid_login_email": "admin@your.com",
+        "invalid_password": "admino",
+        "empty_field_email": " ",
+        "empty_field_password": " "
+    }
+}

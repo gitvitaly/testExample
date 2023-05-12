@@ -1,0 +1,20 @@
+{
+    "AddNewProduct": {
+        "ProductInfo": {
+            "ProductName": "Test cypress",
+            "ShortDescription": "Cypress short description",
+            "SKU": "12345",
+            "ProductTags": "Automation",
+            "AdminComment": "Software",
+            "Price": "1500"
+        }
+    },
+    "ProductInfoEdited": {
+        "ProductNameEdited": "Test cypress 2",
+        "ShortDescriptionEdited": "Cypress short description 2",
+        "SKUEdited": "12345678",
+        "ProductTagsEdited": "Automation 2",
+        "AdminCommentEdited": "Software 2",
+        "PriceEdited": "1800"
+    }
+}

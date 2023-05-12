@@ -1,0 +1,20 @@
+{
+    "SidebarMenu": {
+        "Catalog": {
+            "id": "p",
+            "title": "Catalog"
+        }
+    },
+    "TopMenuButtonsEditProduct": {
+        "Buttons": {
+            "id": "i",
+            "title": "Save and Continue Edit"
+        }
+    },
+    "TopMenuButtonsProduct": {
+        "Buttons": {
+            "id": "i",
+            "title": "Add new"
+        }
+    }
+}
