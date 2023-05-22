@@ -2,11 +2,16 @@ name: cypress nopCommerce test
 on: [push]
 jobs:
   sypress-run:
-    runs-on: macos-latest
-    steps:
-     - name: Checkout
+      runs-on: macos-latest
+
+      steps:
+      - name: Checkout
        uses: actions/checkout@v3.5.2
-     - name: Cypress.io
-       uses: cypress-io/github-action@6e17f678e755fadb8522f4ee0b58c63b95768031
-       with:
-         start: npm start
+
+      - name: Install dependencies
+        run: npm ci 
+
+      - name: Run Cypress tests
+        run: npm run test:cypress
+
+
