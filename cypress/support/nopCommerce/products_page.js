@@ -166,12 +166,11 @@ export class ProductsPage {
       .should("be.visible");
     cy.contains("Excel file").should("be.visible");
     cy.contains("Import from Excel").click()
-    cy.get('#importexcel-window > .modal-dialog > .modal-content > .modal-header > .close').click();
-    cy.get('#importexcel-window > .modal-dialog > .modal-content > .modal-header > .close').click();
+    cy.get("button").contains("Import from Excel").click();
   }
 
   chekmarkFoundProduct() {
-    cy.wait(2500)
+    cy.wait(1500)
     cy.get('input[name="checkbox_products"]').check()
   }
 
