@@ -24,7 +24,7 @@ describe('Side bar menu', () => {
         onSideBarPage.assertCheckoutAttributesPage();
     });
 
-    it("Validate sidebar Sales", { tags: 'smoke' }, function () {
+    it("Validate sidebar Sales.", { tags: 'smoke' }, function () {
         cy.login();
         cy.sidebarMenu("Sales");
         cy.sidebarMenu("Orders");
