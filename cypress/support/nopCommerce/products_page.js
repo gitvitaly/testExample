@@ -171,7 +171,7 @@ export class ProductsPage {
   }
 
   chekmarkFoundProduct() {
-    cy.wait(1500)
+    cy.wait(2500)
     cy.get('input[name="checkbox_products"]').check()
   }
 
